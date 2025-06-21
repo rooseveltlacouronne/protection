@@ -1,0 +1,30 @@
+
+name: protection
+description: Une application de verrouillage sécurisée
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^9.0.0    # Stockage sécurisé
+  camera: ^0.10.6                   # Accès à la caméra
+  geolocator: ^12.0.0               # Localisation
+  mailer: ^6.1.2                    # Envoi d'emails
+  path_provider: ^2.1.4             # Accès au stockage
+  permission_handler: ^11.1.0       # Gestion des permissions
+  device_policy_manager: ^1.0.0     # Gestion des politiques de l'appareil
+  flutter_background_service: ^5.0.5 # Service en arrière-plan
+  google_sign_in: ^6.2.1            # Authentification Google
+  device_info_plus: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
